@@ -1,0 +1,26 @@
+input {
+width: 100px; 
+height: 30px;
+   transition: all 2s;
+   }
+
+input:focus {
+   width: 200px;
+   font-size: 24px;
+}
+
+
+h2 {
+   animation-duration: 2s;
+   animation-name: aparecer;
+}
+
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}

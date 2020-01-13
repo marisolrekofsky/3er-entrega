@@ -1,0 +1,129 @@
+@import "typo";
+
+.titular1 {  
+  color: orange ;
+}
+
+.titular2 {  
+  color: orange ;
+}
+
+ h2 {
+        margin-top: 0;
+    }
+
+article {
+   color: red;
+}
+
+ul {    
+  list-style:none;
+  font-size: 0;
+  
+  padding: 10px;
+}
+li {
+  display: inline-block;
+  width: 10%;
+
+  
+   position:relative;
+}
+a {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  color: black;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a:hover {
+  background-color: rgba(30, 30, 30, 0.1);
+}
+
+
+.montserrat {
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+footer {
+
+        background-color: black;
+        text-align: center;
+        padding: 20px 0;
+        background-color: black;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    
+    a {
+        color: white;
+        padding: 0 10px;
+        margin: auto 0;
+     
+        &:hover {
+        text-decoration: underline;
+    }
+  }
+    
+    p {
+        margin: auto 0;
+    }
+    ul {
+        margin: 0 30px 0 auto;
+    }
+
+  }
+
+  .padre-flex section
+  {
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: grey
+    
+   
+
+  }
+
+#servicios img {
+
+        width: 25%;
+    }
+
+
+  .titularDeLaWeb 
+  {font-family: 'Montserrat', sans-serif;}
+
+  #servicios {
+        background-color: white;
+        justify-content: space-around;
+        padding: 50px 0;
+    }
+    #servicios img {
+
+        width: 25%;
+    }
+    main {
+        flex-basis: 85%;
+        padding: 2rem;
+    
+     p {
+        line-height: 1.6;
+       }
+    }
+
+
+    h2 {
+        margin-top: 0;
+    }
+    aside {
+        flex-basis: 15%;
+    }

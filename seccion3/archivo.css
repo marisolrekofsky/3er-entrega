@@ -1,0 +1,41 @@
+
+
+
+.ejemplos 
+{height: 700px;
+
+}
+
+
+body {
+  margin: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.ejemplos  {
+ width: 320px; height: 213px
+
+ }
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+
+
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 100%;
+}
+
+
+
